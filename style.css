@@ -8,12 +8,18 @@
     margin: auto;
     width: 800px;
     height: 800px;
-    background-color: gray;
+    background-color: rgb(226, 226, 226);
     display: flex;
     flex-wrap: wrap;
 }
 
 .square{
-    border: solid red 0.5px;
+   border: 0.1px solid black;
 }
+
+.square:hover{
+    background-color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+
 
